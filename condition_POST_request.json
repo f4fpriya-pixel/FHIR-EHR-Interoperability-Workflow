@@ -1,0 +1,77 @@
+{
+  "resourceType": "Condition",
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active",
+        "display": "Active"
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "confirmed",
+        "display": "Confirmed"
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "271737000",
+        "display": "Anemia"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/8955"
+  },
+  "encounter": {
+    "reference": "Encounter/8956"
+  },
+  "evidence": [
+    {
+      "code": [
+        {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "404640003",
+              "display": "Dizziness"
+            }
+          ]
+        },
+        {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "13791008",
+              "display": "Weakness"
+            }
+          ]
+        },
+        {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "25064002",
+              "display": "Headache"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": [
+        {
+          "reference": "Observation/8959",
+          "display": "Low hemoglobin lab result"
+        }
+      ]
+    }
+  ]
+}

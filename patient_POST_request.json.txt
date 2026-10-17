@@ -1,0 +1,23 @@
+{
+                "resourceType": "Patient",
+                "name": [
+                    {
+                        "family": "Sarah",
+                        "given": [
+                            "Miller"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1988-07-14",
+                "address": [
+                    {
+                        "line": [
+                            "25/B, Park Street"
+                        ],
+                        "city": "Kolkata",
+                        "state": "IN-WB",
+                        "country": "IND"
+                    }
+                ]
+            }
